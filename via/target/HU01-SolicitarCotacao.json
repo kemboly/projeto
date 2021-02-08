@@ -1,0 +1,291 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T12:25:05.379Z",
+        "line": 9,
+        "name": "Cadastrar Cotacao de Automovel",
+        "description": "",
+        "id": "solicitar-cotacao;cadastrar-cotacao-de-automovel",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "que eu acesse o formulario de automovel",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "que a seguinte proposta seja preenchida:",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Marca",
+                  "Honda"
+                ]
+              },
+              {
+                "cells": [
+                  "Potencia (kW)",
+                  "228"
+                ]
+              },
+              {
+                "cells": [
+                  "Fabricacao",
+                  "02/01/2020"
+                ]
+              },
+              {
+                "cells": [
+                  "Nro Assentos",
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "Combustivel",
+                  "Gas"
+                ]
+              },
+              {
+                "cells": [
+                  "Preco\t(USD)",
+                  "45475"
+                ]
+              },
+              {
+                "cells": [
+                  "Placa",
+                  "HND4568"
+                ]
+              },
+              {
+                "cells": [
+                  "Milhagem\t(Mi)",
+                  "13500"
+                ]
+              },
+              {
+                "cells": [
+                  "Nome",
+                  "Camila"
+                ]
+              },
+              {
+                "cells": [
+                  "Sobrenome",
+                  "Freitas"
+                ]
+              },
+              {
+                "cells": [
+                  "Dt Nascimento",
+                  "03/10/1989"
+                ]
+              },
+              {
+                "cells": [
+                  "Genero",
+                  "Female"
+                ]
+              },
+              {
+                "cells": [
+                  "Endereco",
+                  "Rua 25"
+                ]
+              },
+              {
+                "cells": [
+                  "Pais",
+                  "Brazil"
+                ]
+              },
+              {
+                "cells": [
+                  "CEP",
+                  "72320000"
+                ]
+              },
+              {
+                "cells": [
+                  "Cidade",
+                  "Brasilia"
+                ]
+              },
+              {
+                "cells": [
+                  "Ocupacao",
+                  "Employee"
+                ]
+              },
+              {
+                "cells": [
+                  "Hobbies",
+                  "Speeding,Skydiving"
+                ]
+              },
+              {
+                "cells": [
+                  "Website",
+                  "www.me.io"
+                ]
+              },
+              {
+                "cells": [
+                  "Picture",
+                  "\\fixtures\\3x4.png"
+                ]
+              },
+              {
+                "cells": [
+                  "Start Date",
+                  "03/09/2021"
+                ]
+              },
+              {
+                "cells": [
+                  "Insurance Sum",
+                  "5.000.000,00"
+                ]
+              },
+              {
+                "cells": [
+                  "Merit Rating",
+                  "Bonus 3"
+                ]
+              },
+              {
+                "cells": [
+                  "Damage Ins",
+                  "Partial Coverage"
+                ]
+              },
+              {
+                "cells": [
+                  "Optional Prod",
+                  "Euro Protection"
+                ]
+              },
+              {
+                "cells": [
+                  "Courtesy Car",
+                  "Yes"
+                ]
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "selecionar o plano \"Platinum\"",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "preencher minhas informacoes",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "E-Mail",
+                  "teste@teste.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "6199999999"
+                ]
+              },
+              {
+                "cells": [
+                  "Username",
+                  "teste"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "Teste54"
+                ]
+              },
+              {
+                "cells": [
+                  "Confirm Pass",
+                  "Teste54"
+                ]
+              },
+              {
+                "cells": [
+                  "Comments",
+                  "Yes"
+                ]
+              }
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "clicar no botao Send",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "devo visualizar a mensagem \"Sending e-mail success!\"",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cotacao"
+          },
+          {
+            "name": "@cadastro"
+          }
+        ]
+      }
+    ],
+    "name": "Solicitar Cotacao",
+    "description": "\tComo usu�rio desejo solicitar uma cotacao de seguro para meu veiculo",
+    "id": "solicitar-cotacao",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/HU01-SolicitarCotacao.feature",
+    "tags": [
+      {
+        "name": "@cotacao",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
